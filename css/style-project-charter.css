@@ -1,0 +1,114 @@
+/* cấu trúc layout của các element goals, team, primary, timeline */
+hr {
+  margin-bottom: 0 !important;
+  height: 2px !important;
+}
+.items {
+  background-color: #fff;
+}
+.items-container {
+  padding-left: 20px !important;
+}
+.items-header {
+  font-size: 30px;
+  font-weight: 700;
+  color: blue;
+  margin-top: 15px;
+}
+.img {
+  margin-top: 10px;
+  width: 20%;
+  float: left;
+}
+img {
+  width: 50px;
+}
+.goals-items-content {
+  display: inline-block;
+  width: 80%;
+}
+.goals-items-title {
+  font-size: large;
+  font-weight: 500;
+}
+.goals-items {
+  padding: 10px 0;
+  padding-left: 7%;
+  border-bottom: 1px rgb(240, 240, 240) solid;
+}
+/* bổ sung css cho team-items */
+.team-items {
+  padding-left: 4%;
+  border-bottom: unset;
+}
+.team {
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* chỉnh sửa cho phần timeline */
+.timeline-items-number {
+  width: 20%;
+  float: left;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 2px rgb(51, 51, 51) solid;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(155, 125, 200);
+}
+.timeline-items {
+  margin-bottom: 15px;
+}
+.timeline-items-content {
+  padding-left: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px rgb(80, 225, 50) dashed;
+}
+
+/* chỉnh sửa cho phần primary */
+.primary-img {
+  width: 32px;
+  height: 32px;
+}
+/* chỉnh sửa cho phần primary */
+h2 {
+  padding: 15px 0;
+}
+/* cấu trúc layout của body*/
+
+#timeline {
+  grid-row: span 2;
+}
+#project-charter {
+  background-color: blue;
+  padding: 1rem;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  #timeline {
+    order: 5;
+  }
+  .items {
+    padding-bottom: 30px;
+  }
+  .img {
+    float: unset;
+    width: 100%;
+    margin-left: 30%;
+  }
+  .goals-items-content {
+    width: 90%;
+  }
+  .timeline-items-number {
+    width: 100%;
+  }
+  .number {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,345 @@
+.hidden {
+  display: none !important;
+}
+
+/* CSS của phần banner */
+#banner {
+  position: relative;
+}
+#banner-img {
+  width: 100%;
+}
+#banner-text {
+  min-width: 500px;
+  position: absolute;
+  font-family: sans-serif;
+  top: 10%;
+  color: white;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+}
+#banner-text-name {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+#banner-text-work {
+  font-size: 25px;
+}
+/* CSS cho icon */
+.icon {
+  color: rgb(0, 150, 255);
+  display: inline;
+}
+.text {
+  color: #000;
+}
+/* CSS của phần navbar */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 1px rgba(128, 128, 128, 0.2) solid;
+  border-bottom: 1px rgba(128, 128, 128, 0.2) solid;
+}
+.nav-item {
+  min-width: fit-content;
+  display: flex;
+  width: 170px;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px rgba(128, 128, 128, 0.2) solid;
+}
+.nav-item:last-child {
+  border-right: 1px rgba(128, 128, 128, 0.2) solid;
+}
+.nav-item:hover {
+  background-color: wheat;
+}
+.nav-text-name {
+  font-size: 25px;
+  font-weight: 500;
+}
+.nav-text-work {
+  color: gray;
+  font-size: 13px;
+}
+.nav-text {
+  display: inline;
+}
+.nav-link {
+  text-align: center;
+}
+#home {
+  padding: 0 50px;
+  min-width: fit-content;
+}
+/* CSS của phần thông tin cá nhân */
+#infor-personal-container {
+  width: 100%;
+}
+.infor-personal-header {
+  font-size: 30px;
+  font-weight: 400;
+}
+.infor-personal-tab1 {
+  background-color: rgb(230, 230, 230);
+  background-clip: padding-box;
+}
+.infor-personal-btn {
+  background-color: #199cdb !important;
+}
+.infor-personal-tab2 {
+  background-color: rgb(200, 200, 200);
+}
+.infor-personal-footer {
+  margin-top: 20px;
+}
+
+/* CSS của phần thông tin nghề nghiệp */
+.infor-job-tab1 {
+  flex-direction: row;
+  justify-content: center;
+}
+#test {
+  width: 350px;
+  padding: 30px;
+}
+/* CSS của phần nghề nghiệp */
+.infor-job-tab {
+  background-color: rgb(250, 250, 250);
+  border: 1px rgb(200, 200, 200) solid;
+  border-radius: 5px;
+  padding-bottom: 50px;
+  position: relative;
+  height: fit-content;
+}
+.tab-header {
+  padding: 20px 0px;
+  align-items: baseline;
+  margin: 0 32px;
+}
+.tab-viewmore {
+  position: absolute;
+  bottom: 20px;
+  left: 32px;
+  background-color: wheat;
+  width: fit-content;
+  padding: 10px 40px;
+  border-radius: 30px;
+}
+.tab-viewless {
+  position: absolute;
+  bottom: 20px;
+  left: 32px;
+  background-color: wheat;
+  width: fit-content;
+  padding: 10px 40px;
+  border-radius: 30px;
+}
+.header-name {
+  font-size: 30px;
+  font-weight: 700;
+}
+.header-icon {
+  font-size: 40px;
+}
+.tab-body-container {
+  list-style: none;
+}
+.tab-body-items {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-right: 32px;
+}
+.tab-body-items::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-color: #199cdb;
+  border-radius: 100%;
+  top: 10px;
+  left: -15px;
+}
+.items-title {
+  font-weight: 700;
+  font-size: larger;
+}
+.time {
+  padding-bottom: 10px;
+}
+.current {
+  background-color: #199cdb;
+  color: white;
+  padding: 0 20px 3px 20px;
+  border-radius: 10px;
+}
+.tab-body {
+  margin: 20px 32px;
+}
+.hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hobby-icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 2px green solid;
+  border-radius: 100%;
+}
+.ic {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.level-title {
+  font-size: larger;
+  font-weight: 700;
+}
+.level {
+  position: relative;
+  margin-bottom: 40px;
+}
+.level-content {
+  position: absolute;
+  top: 20px;
+}
+.level-lv-active {
+  background-color: #199cdb !important;
+}
+.level-lv {
+  display: inline-block;
+  width: 45px;
+  height: 3px;
+  background-color: gray;
+  margin-right: 10px;
+}
+/* CSS của phần Chứng chỉ */
+#certificate {
+  margin-top: 40px;
+  background-color: rgb(240, 240, 240);
+}
+.certificate-title {
+  font-size: 40px;
+  font-weight: 400;
+  padding: 40px 0 20px 0;
+}
+.certificate-rows {
+  border-top: 2px #d6c08d solid;
+  width: 100%;
+}
+.certificate-rows:first-child {
+  border: unset;
+}
+.certificate-tab {
+  display: flex;
+  flex-direction: row;
+  border-right: 2px #d6c08d solid;
+  width: 50%;
+  margin: 40px 20px 40px 0;
+}
+.certificate-tab:last-child {
+  border: 0px;
+}
+.certificate-img {
+  width: 40%;
+}
+.tab-content {
+  padding-left: 5%;
+  width: 60%;
+}
+.tab-content-header {
+  font-size: large;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+/* CSS của phần Dự án */
+#project {
+  margin: 30px;
+}
+.project-title {
+  font-size: 40px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+.project-img {
+  width: 100%;
+}
+.project-name {
+  padding-left: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  border: 1px rgb(200, 200, 200) solid;
+  border-top: unset;
+  padding: 10px 0 10px 25px;
+}
+.project-infor {
+  border: 1px rgb(200, 200, 200) solid;
+  border-top: unset;
+  padding: 10px 0;
+}
+.project-time {
+  float: left;
+  display: inline-block;
+  width: fit-content;
+  margin-left: 10%;
+  background-color: #199cdb;
+  border-radius: 15px;
+  padding: 2px 10px;
+}
+.project-person {
+  display: inline-block;
+  margin-left: 10%;
+}
+.project-perform {
+  display: inline-block;
+  margin-left: 10%;
+}
+.project-tab {
+  display: flex;
+  flex-direction: column;
+  max-height: min-content;
+}
+.project-table {
+  height: 100%;
+}
+.tr {
+  border: 1px rgb(200, 200, 200) solid;
+  border-collapse: collapse;
+  border-top: unset;
+  vertical-align: text-top;
+}
+.tr-title {
+  padding: 5px;
+  text-wrap: nowrap;
+}
+
+/* CSS phần footer */
+#footer {
+  padding: 20px 0;
+  margin: 50px 0 20px 0;
+  background-color: rgb(230, 230, 230);
+}
+.footer-items {
+  margin: 0 20px;
+}
+.footer-icon {
+  display: inline-block;
+  background-color: #199cdb;
+  padding: 7px;
+  color: white;
+  border-radius: 50%;
+}
+.footer-text {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}

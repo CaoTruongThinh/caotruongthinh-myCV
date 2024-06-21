@@ -1,0 +1,27 @@
+@media (max-width: 992px) {
+  .navbar-container {
+    padding-left: unset;
+  }
+  #home {
+    display: none;
+  }
+  /* certificate */
+  .tr-title {
+    text-wrap: wrap;
+  }
+  .certificate-tab {
+    margin-right: unset;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .certificate-tab:nth-child(2) {
+    padding-left: 10px;
+  }
+  .certificate-img {
+    width: 100%;
+  }
+  .tab-content {
+    width: 100%;
+  }
+}
